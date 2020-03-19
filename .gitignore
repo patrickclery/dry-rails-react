@@ -1,0 +1,35 @@
+/log/*
+!/log/.keep
+/tmp/*
+!/tmp/.keep
+/coverage/
+!/coverage/.keep
+
+# RSpec
+/.rspec_status
+
+# IntelliJ
+/.idea/
+/.generators
+/.rakeTasks
+
+# Ignore master key for decrypting credentials and more.
+/config/master.key
+
+# Webpacker
+/public/packs
+/public/packs-test
+
+# JavaScript
+/node_modules
+yarn-debug.log*
+.yarn-integrity
+
+/.bundle
+/public/packs
+/public/packs-test
+/node_modules
+/yarn-error.log
+yarn-debug.log*
+.yarn-integrity
+!/.babelrc

@@ -1,0 +1,33 @@
+{
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-react": "^7.8.3",
+    "@rails/webpacker": "4.2.2",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.1",
+    "postcss": "^7.0.27",
+    "react": "^16.13.0",
+    "react-bootstrap": "^1.0.0-beta.17",
+    "react-dom": "^16.13.0",
+    "react-scripts": "^3.4.0",
+    "react_ujs": "^2.6.1"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^3.10.3"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  }
+}

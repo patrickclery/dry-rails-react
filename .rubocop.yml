@@ -1,0 +1,33 @@
+Metrics/MethodLength:
+  Max: 16
+
+Style/Documentation:
+  Enabled: false
+
+Layout/LineLength:
+  Max: 120
+
+# https://github.com/rubocop-hq/rubocop/issues/1661
+# Disabled because it fails to recognize this as valid:
+#                expect(delete: "/forms/1/inputs/2/").to route_to(controller: "inputs",
+#                                                                 action:     "delete",
+#                                                                 form_id:    "1",
+#                                                                 input_id:   "2")
+Layout/HashAlignment:
+  Enabled: false
+
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**'
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Style/HashEachMethods:
+  Enabled: true
+
+Style/HashTransformKeys:
+  Enabled: true
+
+Style/HashTransformValues:
+  Enabled: true
