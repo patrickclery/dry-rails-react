@@ -3,14 +3,13 @@
 // a relevant structure within app/javascript and only use these pack files to reference
 // that code so it'll be compiled.
 //= require react
-//= require rails-ujs
+//= require jquery
+//= require popper.js
+//= require bootstrap
+//= require stylesheets/application
+//= require channels
 
-require("channels");
-
-// For react-bootstrap
-import 'jquery'
-import 'popper.js'
-import 'bootstrap'
+// This was required to be here (and required above) to work on client-side rendering
 import 'stylesheets/application'
 
 var componentRequireContext = require.context("components", true);
