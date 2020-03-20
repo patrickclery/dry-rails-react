@@ -1,4 +1,4 @@
-[![Coverage Status](https://coveralls.io/repos/github/patrickclery/dry-rails-react/badge.svg?branch=master)](https://coveralls.io/github/patrickclery/dry-rails-react?branch=master)
+[![codecov](https://codecov.io/gh/patrickclery/dry-rails-react/branch/master/graph/badge.svg)](https://codecov.io/gh/patrickclery/dry-rails-react)
 ![Rails + React + PostgreSQL](https://github.com/patrickclery/dry-rails-react/workflows/Rails%20+%20React%20+%20PostgreSQL/badge.svg)
 ![Dependabot Status](https://badgen.net/dependabot/patrickclery/dry-rails-react/?icon=dependabot)
 
