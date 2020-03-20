@@ -27,3 +27,4 @@
 yarn-debug.log*
 .yarn-integrity
 
+/config/docker/.env

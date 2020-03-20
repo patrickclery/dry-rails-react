@@ -1,0 +1,51 @@
+version: '3'
+networks:
+  railsnet:
+    driver: bridge
+volumes:
+  rails:
+  db:
+    driver: local
+
+services:
+  db:
+    command: postgres
+    image: postgres:12.2
+    networks:
+      railsnet:
+        aliases:
+          - db
+    ports:
+      - "5432:5432"
+    restart: always
+    volumes:
+      - db:/var/lib/postgresql/data
+  rails:
+    build:
+      dockerfile: ./config/docker/Dockerfile
+      context: .
+    depends_on:
+      - db
+    env_file:
+      - ./config/docker/.env
+    ports:
+      - "3000:3000"
+    restart: always
+    networks:
+      railsnet:
+        aliases:
+          - rails
+          - app
+    volumes:
+      - rails:/rails
+  dnsproxy:
+    image: defreitas/dns-proxy-server
+    container_name: dnsproxy
+    environment:
+      MG_REGISTER_CONTAINER_NAMES: 1
+    hostname: dnsproxy
+    networks:
+      - railsnet
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /etc/resolv.conf:/etc/resolv.conf
