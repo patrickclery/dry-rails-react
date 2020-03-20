@@ -82,4 +82,4 @@ production:
   <<: *default
   database: dry_rails_react_production
   username: dry_rails_react
-  password: <%= ENV['AMAZON_ASIN_CHECKER_DATABASE_PASSWORD'] %>
+  password: <%= ENV['DRY_RAILS_REACT_DATABASE_PASSWORD'] %>
