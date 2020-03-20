@@ -1,4 +1,4 @@
-name: Ruby
+name: Rails + React + PostgreSQL
 
 on: [push]
 
@@ -30,9 +30,7 @@ jobs:
           PGUSER: postgres
           RAILS_ENV: test
         run: |
-          gem install bundler
-          bundle install --jobs 4 --retry 3
-          bin/rails db:create db:schema:load
+          bin/setup
 
       - name: Run Tests
         env:
@@ -41,3 +39,10 @@ jobs:
           RAILS_ENV: test
         run: |
           bundle exec rspec
+
+      - name: CodeCov
+        uses: codecov/codecov-action@v1
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }} # not required for public repos
+          name: codecov-umbrella # optional
+          fail_ci_if_error: false # optional (default = false)
