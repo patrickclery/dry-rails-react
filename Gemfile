@@ -10,6 +10,7 @@ gem "pg"
 gem "puma"
 gem "rails", "~> 6.0.2.1"
 gem "react-rails"
+gem "turbolinks"
 gem "webpacker", "~> 4.x"
 
 group :development do

@@ -236,6 +236,9 @@ GEM
     thor (1.0.1)
     thread_safe (0.3.6)
     tilt (2.0.10)
+    turbolinks (5.2.1)
+      turbolinks-source (~> 5.2)
+    turbolinks-source (5.2.0)
     tzinfo (1.2.6)
       thread_safe (~> 0.1)
     unicode-display_width (1.6.1)
@@ -292,6 +295,7 @@ DEPENDENCIES
   selenium-webdriver
   spring
   spring-watcher-listen (~> 2.0.0)
+  turbolinks
   vcr
   web-console
   webdrivers
@@ -299,4 +303,4 @@ DEPENDENCIES
   webpacker (~> 4.x)
 
 BUNDLED WITH
-   2.1.2
+   2.1.4
