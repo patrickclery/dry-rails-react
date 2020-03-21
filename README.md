@@ -1,8 +1,7 @@
 [![codecov](https://codecov.io/gh/patrickclery/dry-rails-react/branch/master/graph/badge.svg)](https://codecov.io/gh/patrickclery/dry-rails-react)
 ![Rails + React + PostgreSQL](https://github.com/patrickclery/dry-rails-react/workflows/Rails%20+%20React%20+%20PostgreSQL/badge.svg)
 ![Dependabot Status](https://badgen.net/dependabot/patrickclery/dry-rails-react/?icon=dependabot)
-
-![@patrickclery on twitter](https://badgen.net/twitter/follow/patrickclery)
+![Docker Image](https://badgen.net/docker/size/patrickclery/dry-rails-react/latest/amd64)
 
 ## Description
 
@@ -24,6 +23,12 @@ This is the opinionated Rails configuration that I use to develop full-stack Rai
 
 - Start the server with `rails s`
 - Navigate to [http://localhost:3000/](http://localhost:3000/)
+
+## Features
+
+- GitHub Actions
+    - Docker images published on every commit to master branch (@via [docker build-push-action](https://github.com/docker/build-push-action))
+    - RSpec tests run on every push
 
 ## What is included?
 
