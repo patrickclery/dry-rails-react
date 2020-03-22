@@ -35,6 +35,7 @@ group :test do
   gem "rubocop"
   gem "rubocop-rspec"
   gem "selenium-webdriver"
+  gem "shoulda"
   gem "simplecov"
   gem "vcr"
   gem "webdrivers"
