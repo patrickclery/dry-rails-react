@@ -31,7 +31,8 @@ group :test do
   gem "faker"
   gem "rspec"
   gem "rspec-core"
-  gem "rspec-rails"
+  gem "rspec-rails", "~> 4.0.0.rc1" # Needed for react-rails controller tests
+  gem "rails-controller-testing"
   gem "rubocop"
   gem "rubocop-rspec"
   gem "selenium-webdriver"
