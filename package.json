@@ -1,9 +1,9 @@
 {
   "license": "MIT",
   "dependencies": {
-    "@babel/core": "^7.8.7",
-    "@babel/preset-env": "^7.8.7",
-    "@babel/preset-react": "^7.8.3",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-react": "^7.9.4",
     "@rails/webpacker": "^5.0.1",
     "babel-loader": "^8.0.6",
     "babel-preset-env": "^1.7.0",
@@ -13,7 +13,7 @@
     "popper.js": "^1.16.1",
     "postcss": "^7.0.27",
     "react": "^16.13.1",
-    "react-bootstrap": "^1.0.0-beta.17",
+    "react-bootstrap": "^1.0.0",
     "react-dom": "^16.13.1",
     "react_ujs": "^2.6.1",
     "webpack": "^4.42.1"
