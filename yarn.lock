@@ -1155,7 +1155,7 @@
   resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.1.1.tgz#12c572ab88ef7345b43f21883fca26631c223085"
   integrity sha512-sLqWxCzC5/QHLhziXSCAksBxHfOnQlhPRVgPK0egEw+ktWvG75T2k+aYWVjVh9+WKeT3tlG3ZNbZQvZLmfuOIw==
 
-"@rails/webpacker@5.0.1":
+"@rails/webpacker@^5.0.1":
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/@rails/webpacker/-/webpacker-5.0.1.tgz#f7bdb8d0b36e41aa2f219aad332f50194ad4fc46"
   integrity sha512-r74Od+YO5OxkrePNLL9M3Mi3DQNPLSXkv+cGDdiFvTGeFc+VtI8j0sNGoulBMlEZFH8GVlb7LLy/FVLjPJq1/Q==
@@ -9603,7 +9603,7 @@ react-overlays@^3.0.1:
     uncontrollable "^7.0.0"
     warning "^4.0.3"
 
-react-scripts@^3.4.0:
+react-scripts@3.4.1:
   version "3.4.1"
   resolved "https://registry.yarnpkg.com/react-scripts/-/react-scripts-3.4.1.tgz#f551298b5c71985cc491b9acf3c8e8c0ae3ada0a"
   integrity sha512-JpTdi/0Sfd31mZA6Ukx+lq5j1JoKItX7qqEK4OiACjVQletM1P38g49d9/D0yTxp9FrSF+xpJFStkGgKEIRjlQ==
