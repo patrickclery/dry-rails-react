@@ -325,7 +325,7 @@ DEPENDENCIES
   web-console
   webdrivers
   webmock
-  webpacker (~> 5)
+  webpacker (~> 5.x)
 
 BUNDLED WITH
    2.1.4
