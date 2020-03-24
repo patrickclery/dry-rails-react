@@ -15,19 +15,10 @@
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.0-beta.17",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1",
-    "react_ujs": "^2.6.1"
-  },
-  "devDependencies": {
-    "webpack-dev-server": "^3.10.3"
+    "react_ujs": "^2.6.1",
+    "webpack": "^4.42.1"
   },
   "eslintConfig": {
     "extends": "react-app"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
   }
 }
