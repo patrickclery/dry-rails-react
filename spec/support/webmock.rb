@@ -1,5 +1,7 @@
-require 'webmock/rspec'
-require 'hashdiff' # Fix for webmock
+# frozen_string_literal: true
+
+require "webmock/rspec"
+require "hashdiff" # Fix for webmock
 
 WebMock.enable!
-WebMock.allow_net_connect!
+WebMock.disable_net_connect!

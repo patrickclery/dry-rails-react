@@ -26,6 +26,7 @@ group :test do
   gem "capybara"
   gem "capybara-screenshot"
   gem "codecov"
+  gem "database_cleaner"
   gem "factory_bot"
   gem "factory_bot_rails"
   gem "faker"

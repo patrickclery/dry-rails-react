@@ -10,6 +10,10 @@ volumes:
 services:
   db:
     command: postgres
+    depends_on:
+      - dnsproxy
+    env_file:
+      - ./config/docker/.env
     image: postgres:12.2
     networks:
       railsnet:
@@ -26,6 +30,7 @@ services:
       context: .
     depends_on:
       - db
+      - dnsproxy
     env_file:
       - ./config/docker/.env
     ports:
@@ -41,8 +46,6 @@ services:
   dnsproxy:
     image: defreitas/dns-proxy-server
     container_name: dnsproxy
-    environment:
-      MG_REGISTER_CONTAINER_NAMES: 1
     hostname: dnsproxy
     networks:
       - railsnet
