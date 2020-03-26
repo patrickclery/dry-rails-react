@@ -26,12 +26,13 @@ group :test do
   gem "capybara"
   gem "capybara-screenshot"
   gem "codecov"
+  gem "database_cleaner"
   gem "factory_bot"
   gem "factory_bot_rails"
   gem "faker"
   gem "rspec"
   gem "rspec-core"
-  gem "rspec-rails", "~> 4.0.0.rc1" # Needed for react-rails controller tests
+  gem "rspec-rails", "~> 4.0.0" # Needed for react-rails controller tests
   gem "rails-controller-testing"
   gem "rubocop"
   gem "rubocop-rspec"
