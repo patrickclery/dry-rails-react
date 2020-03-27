@@ -2,9 +2,12 @@
 
 source "https://rubygems.org"
 
+ruby "2.6.5"
+
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap"
 gem "brakeman"
+gem "json", "~> 2.3.0"
 gem "fast_jsonapi"
 gem "pg"
 gem "puma"

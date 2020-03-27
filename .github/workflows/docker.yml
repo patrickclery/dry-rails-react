@@ -17,7 +17,7 @@ jobs:
       - name: build push
         uses: docker/build-push-action@v1
         with:
-          dockerfile: config/docker/Dockerfile
+          dockerfile: Dockerfile
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
           repository: patrickclery/dry-rails-react

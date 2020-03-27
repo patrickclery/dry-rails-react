@@ -21,8 +21,8 @@ FileUtils.chdir APP_ROOT do
   system('bundle check') || system!('bundle install')
 
   puts "\n== Creating docker .env file from example =="
-  unless File.exist?('config/docker/.env')
-    system!('cp config/docker/.env.example config/docker/.env')
+  unless File.exist?('.env')
+    system!('cp .env.example .env')
   end
 
   puts "\n== Preparing database =="
