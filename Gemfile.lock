@@ -306,6 +306,7 @@ DEPENDENCIES
   factory_bot_rails
   faker
   fast_jsonapi
+  json (~> 2.3.0)
   listen
   pg
   puma
@@ -328,6 +329,9 @@ DEPENDENCIES
   webdrivers
   webmock
   webpacker (~> 5.x)
+
+RUBY VERSION
+   ruby 2.6.5p114
 
 BUNDLED WITH
    2.1.4
