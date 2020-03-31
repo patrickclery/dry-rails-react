@@ -9,10 +9,9 @@ jobs:
     steps:
       - uses: actions/checkout@v1
 
-      - name: Push Docker Image
+      - name: Publish Docker Image
         uses: elgohr/Publish-Docker-Github-Action@2.14
         with:
-          dockerfile: Dockerfile
+          name: patrickclery/dry-rails-react
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
-          repository: patrickclery/dry-rails-react
