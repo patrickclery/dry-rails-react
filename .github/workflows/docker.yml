@@ -1,11 +1,6 @@
 name: Docker
 
-on:
-  push:
-    branches:
-      - master
-    tags:
-      - '*'
+on: [push]
 
 jobs:
   build:
@@ -14,11 +9,9 @@ jobs:
     steps:
       - uses: actions/checkout@v1
 
-      - name: build push
-        uses: docker/build-push-action@v1
+      - name: Publish Docker Image
+        uses: elgohr/Publish-Docker-Github-Action@2.14
         with:
-          dockerfile: Dockerfile
+          name: patrickclery/dry-rails-react
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
-          repository: patrickclery/dry-rails-react
-          tag: latest
