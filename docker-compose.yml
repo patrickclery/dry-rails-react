@@ -13,7 +13,7 @@ services:
     depends_on:
       - dnsproxy
     env_file:
-      - ./config/docker/.env
+      - .env
     image: postgres:12.2
     networks:
       railsnet:
@@ -26,13 +26,13 @@ services:
       - db:/var/lib/postgresql/data
   rails:
     build:
-      dockerfile: ./config/docker/Dockerfile
+      dockerfile: Dockerfile
       context: .
     depends_on:
       - db
       - dnsproxy
     env_file:
-      - ./config/docker/.env
+      - .env
     ports:
       - "3000:3000"
     restart: always
