@@ -25,9 +25,6 @@ services:
     volumes:
       - db:/var/lib/postgresql/data
   rails:
-    build:
-      dockerfile: Dockerfile
-      context: .
     depends_on:
       - db
       - dnsproxy
