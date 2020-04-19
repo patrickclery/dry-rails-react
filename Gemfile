@@ -14,7 +14,7 @@ gem "puma"
 gem "rails", "~> 6.0.2.2"
 gem "react-rails"
 gem "turbolinks"
-gem "webpacker", "~> 5.x"
+gem "webpacker", "~> 5"
 
 group :development do
   gem "better_errors"
