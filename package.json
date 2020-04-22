@@ -16,7 +16,7 @@
     "react-bootstrap": "^1.0.0",
     "react-dom": "^16.13.1",
     "react_ujs": "^2.6.1",
-    "webpack": "^4.42.1"
+    "webpack": "^4.43.0"
   },
   "eslintConfig": {
     "extends": "react-app"
