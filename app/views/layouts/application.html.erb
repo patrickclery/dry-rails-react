@@ -4,11 +4,12 @@
   <title>Rails App</title>
   <%= csrf_meta_tags %>
 
-  <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
-  <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_pack_tag 'application' %>
+  <%= stylesheet_pack_tag 'application', media: 'all' %>
 </head>
 
 <body>
+<%= render partial: 'default/navbar' %>
 <%= yield %>
 </body>
 </html>
