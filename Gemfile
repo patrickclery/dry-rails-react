@@ -13,7 +13,6 @@ gem "pg", "~> 1.2"
 gem "puma", "~> 4.3"
 gem "rails", "~> 6.0"
 gem "react-rails", "~> 2.6"
-gem "turbolinks", "~> 5.2"
 gem "webpacker", "~> 5.1"
 
 group :development do
