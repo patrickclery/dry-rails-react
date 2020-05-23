@@ -45,3 +45,5 @@ group :test do
   gem "webdrivers", "~> 4.3"
   gem "webmock", "~> 3.8"
 end
+
+gem "devise", "~> 4.7"
