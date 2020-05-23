@@ -34,3 +34,7 @@ yarn-debug.log*
 # Gemfile.lock
 # .ruby-version
 .ruby-gemset
+
+# For Pessimize
+Gemfile.backup
+Gemfile.lock.backup
