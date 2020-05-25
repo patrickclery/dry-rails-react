@@ -4,11 +4,11 @@ source "https://rubygems.org"
 
 ruby "~> 2.6.6"
 
-# Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", "~> 1.4"
 gem "brakeman", "~> 4.8"
-gem "json", "~> 2.3"
+gem "devise", "~> 4.7"
 gem "fast_jsonapi", "~> 1.5"
+gem "json", "~> 2.3"
 gem "pg", "~> 1.2"
 gem "puma", "~> 4.3"
 gem "rails", "~> 6.0"
@@ -46,4 +46,3 @@ group :test do
   gem "webmock", "~> 3.8"
 end
 
-gem "devise", "~> 4.7"
