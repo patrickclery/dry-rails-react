@@ -18,6 +18,40 @@
     "react_ujs": "^2.6.1",
     "webpack": "^4.42.1"
   },
+  "scripts": {
+    "test": "jest",
+    "test-watch": "jest --watch"
+  },
+  "jest": {
+    "automock": false,
+    "setupFilesAfterEnv": [
+      "./test/setupJest.js"
+    ],
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/test/javascript/__mocks__/fileMock.js",
+      "\\.(css|scss|less)$": "<rootDir>/test/javascript/__mocks__/styleMock.js"
+    },
+    "roots": [
+      "app/javascript/packs",
+      "test/javascript"
+    ],
+    "moduleDirectories": [
+      "node_modules",
+      "app/javascript/packs"
+    ]
+  },
+  "devDependencies": {
+    "@jest/globals": "^26.0.1",
+    "babel-jest": "^26.0.1",
+    "babel-plugin-transform-es2015-arrow-functions": "^6.22.0",
+    "chai": "^4.2.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "jest": "^26.0.1",
+    "jest-enzyme": "^7.1.2",
+    "jest-fetch-mock": "^3.0.3",
+    "webpack-dev-server": "^3.11.0"
+  },
   "eslintConfig": {
     "extends": "react-app"
   }
