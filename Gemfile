@@ -46,3 +46,5 @@ group :test do
   gem "webdrivers", "~> 4.3"
   gem "webmock", "~> 3.8"
 end
+
+gem "table_print", "~> 1.5"
