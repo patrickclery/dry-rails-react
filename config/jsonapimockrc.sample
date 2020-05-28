@@ -1,0 +1,7 @@
+{
+  "port": 3006,
+  "watch": "spec/javascript/__mocks__/api.json",
+  "nestedRoutePrefix": "route-"
+  "contentType": 'application/json',
+  "accept": '*/*'
+}

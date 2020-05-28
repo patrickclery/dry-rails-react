@@ -20,6 +20,11 @@ FileUtils.chdir APP_ROOT do
   system! "gem install bundler --conservative"
   system("bundle check") || system!("bundle install --jobs 4 --retry 3")
 
+  puts "== Copy config files templates =="
+  unless File.exist?('config/.jsonapimockrc')
+    FileUtils.cp 'config/jsonapimockrc.sample', '.jsonapimockrc'
+  end
+
   puts "\n== Preparing database =="
   system! "bin/rails db:prepare db:schema:load db:seed"
 

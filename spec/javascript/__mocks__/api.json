@@ -1,0 +1,14 @@
+{
+  "things": {
+    "data": [
+      {
+        "id":   "1",
+        "name": "Pizza"
+      },
+      {
+        "id":   "1",
+        "name": "Flowers"
+      }
+    ]
+  }
+}

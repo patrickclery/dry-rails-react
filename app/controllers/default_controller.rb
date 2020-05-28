@@ -5,9 +5,6 @@ class DefaultController < ApplicationController
 
   def index
     render component: 'App',
-           props:     {
-             apiUrl: test_with_billy? ? 'http://billy.local' : ''
-           },
            layout:    'application',
            prerender: false
   end
