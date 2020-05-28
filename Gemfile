@@ -41,7 +41,7 @@ group :test do
   gem "selenium-webdriver", "~> 3.142"
   gem "shoulda", "~> 3.6"
   gem "simplecov", "~> 0.18"
-  gem "vcr", "~> 5.1"
+  gem "vcr", "~> 6.0"
   gem "webdrivers", "~> 4.3"
   gem "webmock", "~> 3.8"
 end
