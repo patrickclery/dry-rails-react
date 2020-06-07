@@ -36,7 +36,7 @@ group :test do
   gem "rspec-core", "~> 3.9"
   gem "rspec-rails", "~> 4.0" # Needed for react-rails controller tests
   gem "rails-controller-testing", "~> 1.0"
-  gem "rubocop", "~> 0.84"
+  gem "rubocop", "~> 0.85"
   gem "rubocop-rspec", "~> 1.39"
   gem "selenium-webdriver", "~> 3.142"
   gem "shoulda", "~> 3.6"
