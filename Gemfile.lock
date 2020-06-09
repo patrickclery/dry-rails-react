@@ -87,7 +87,7 @@ GEM
       capybara (>= 1.0, < 4)
       launchy
     childprocess (3.0.0)
-    codecov (0.1.16)
+    codecov (0.1.17)
       json
       simplecov
       url
