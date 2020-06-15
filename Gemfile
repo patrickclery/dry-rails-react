@@ -39,7 +39,7 @@ group :test do
   gem "rubocop", "~> 0.84"
   gem "rubocop-rspec", "~> 1.39"
   gem "selenium-webdriver", "~> 3.142"
-  gem "shoulda", "~> 3.6"
+  gem "shoulda", "~> 4.0"
   gem "simplecov", "~> 0.18"
   gem "vcr", "~> 6.0"
   gem "webdrivers", "~> 4.4"
