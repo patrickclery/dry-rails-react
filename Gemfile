@@ -31,7 +31,7 @@ group :test do
   gem "database_cleaner", "~> 1.8"
   gem "factory_bot", "~> 5.2"
   gem "factory_bot_rails", "~> 5.2"
-  gem "faker", "~> 2.11"
+  gem "faker", "~> 2.13"
   gem "rspec", "~> 3.9"
   gem "rspec-core", "~> 3.9"
   gem "rspec-rails", "~> 4.0" # Needed for react-rails controller tests
